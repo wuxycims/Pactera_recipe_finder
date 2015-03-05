@@ -1,0 +1,37 @@
+<configuration  debug="true">
+	<property file="server.properties" />
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{YYYY-MM-dd HH:mm:ss.SSS} %logger{35} %M\n%level: %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>log/recipeFinder.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>log/%d{yyyy-MM-dd}_recipeFinder_%i.log</fileNamePattern>
+			<!-- keep 1 days' worth of history -->
+			<maxHistory>5</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{YYYY-MM-dd HH:mm:ss.SSS} %logger{35} %M\n%level: %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<root level="${log.level}" additivity="false">
+   		<appender-ref ref="STDOUT"/>
+		<appender-ref ref="FILE" />
+	</root>
+
+
+</configuration>

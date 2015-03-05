@@ -1,0 +1,36 @@
+2015-03-05 19:39:30.933 c.p.r.parser.IngredientParser parseIngredient
+ERROR: Unparseable date: "3a/11/2015"
+2015-03-05 19:39:30.936 c.p.r.parser.IngredientParser parseIngredient
+ERROR: For input string: "aa"
+2015-03-05 19:39:30.937 c.p.r.parser.IngredientParser parseIngredient
+ERROR: No enum constant com.pactera.recipeFinder.model.Unit.grrams
+2015-03-05 19:39:30.938 c.p.r.parser.IngredientParser readFile
+ERROR: Invalid.csv (系统找不到指定的文件。)
+2015-03-05 19:39:30.973 c.p.r.parser.IngredientParser readFile
+ERROR: \ingredients2.csv (系统找不到指定的文件。)
+2015-03-05 19:39:30.977 c.p.r.parser.RecipeParser produceRecipes
+ERROR: \recipe.json
+2015-03-05 20:15:20.278 c.p.r.parser.IngredientParser parseIngredient
+ERROR: Unparseable date: "3a/11/2015"
+2015-03-05 20:15:20.281 c.p.r.parser.IngredientParser parseIngredient
+ERROR: For input string: "aa"
+2015-03-05 20:15:20.282 c.p.r.parser.IngredientParser parseIngredient
+ERROR: No enum constant com.pactera.recipeFinder.model.Unit.grrams
+2015-03-05 20:15:20.283 c.p.r.parser.IngredientParser readFile
+ERROR: Invalid.csv (系统找不到指定的文件。)
+2015-03-05 20:15:20.307 c.p.r.parser.RecipeParser produceRecipes
+ERROR: \recipe.json
+2015-03-05 20:15:20.316 c.p.r.parser.IngredientParser readFile
+ERROR: \ingredients2.csv (系统找不到指定的文件。)
+2015-03-05 21:02:49.609 c.p.r.parser.IngredientParser parseIngredient
+ERROR: Unparseable date: "3a/11/2015"
+2015-03-05 21:02:49.615 c.p.r.parser.IngredientParser parseIngredient
+ERROR: For input string: "aa"
+2015-03-05 21:02:49.615 c.p.r.parser.IngredientParser parseIngredient
+ERROR: No enum constant com.pactera.recipeFinder.model.Unit.grrams
+2015-03-05 21:02:49.617 c.p.r.parser.IngredientParser readFile
+ERROR: Invalid.csv (系统找不到指定的文件。)
+2015-03-05 21:02:49.638 c.p.r.parser.IngredientParser readFile
+ERROR: \ingredients2.csv (系统找不到指定的文件。)
+2015-03-05 21:02:49.642 c.p.r.parser.RecipeParser produceRecipes
+ERROR: \recipe.json
